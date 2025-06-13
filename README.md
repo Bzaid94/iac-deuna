@@ -30,10 +30,21 @@ git clone https://github.com/Bzaid94/iac-deuna.git
 cd iac-deuna
 ```
 
-## Validar
+## Comprobación de plan IaC
+Ejecuta los siguientes comandos para validar la configuración de Terraform:
 
 ```bash
 terraform init
+```
+Output esperado:
+
+![img_1.png](doc/TerraformInit.png)
+
+```bash
 terraform validate
 ```
----
+Output esperado:
+
+![img.png](doc/ValidationSuccess.png)
+
+----
